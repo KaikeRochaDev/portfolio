@@ -5,7 +5,7 @@
 }
 
 .experience__container>div {
-    background-color: var(--color-bg-variant);
+    background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -13,7 +13,7 @@
 }
 
 .experience__container>div:hover {
-    background-color: transparent;
+    background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -36,6 +36,7 @@
 }
 
 .experience__details-icon {
+    font-size: 1.2rem;
     margin-top: 6px;
     color: var(--color-primary);
 }
