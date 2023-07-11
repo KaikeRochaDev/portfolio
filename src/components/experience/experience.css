@@ -33,11 +33,12 @@
 .experience__details {
     display: flex;
     gap: 1rem;
+    margin-left: 1.4rem;
 }
 
 .experience__details-icon {
     font-size: 1.2rem;
-    margin-top: 6px;
+    margin-top: 4px;
     color: var(--color-primary);
 }
 
