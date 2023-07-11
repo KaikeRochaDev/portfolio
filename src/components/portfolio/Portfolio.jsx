@@ -19,8 +19,10 @@ const Portfolio = () => {
             <img src={IMG1} alt="" />
           </div>
           <h3>Isso é um título</h3>
-          <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
-          <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
+            <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -28,8 +30,10 @@ const Portfolio = () => {
             <img src={IMG2} alt="" />
           </div>
           <h3>Isso é um título</h3>
-          <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
-          <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
+            <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -37,8 +41,10 @@ const Portfolio = () => {
             <img src={IMG3} alt="" />
           </div>
           <h3>Isso é um título</h3>
-          <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
-          <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
+            <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -46,8 +52,10 @@ const Portfolio = () => {
             <img src={IMG4} alt="" />
           </div>
           <h3>Isso é um título</h3>
-          <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
-          <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
+            <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -55,8 +63,10 @@ const Portfolio = () => {
             <img src={IMG5} alt="" />
           </div>
           <h3>Isso é um título</h3>
-          <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
-          <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
+            <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          </div>
         </article>
 
         <article className='portfolio__item'>
@@ -64,8 +74,10 @@ const Portfolio = () => {
             <img src={IMG6} alt="" />
           </div>
           <h3>Isso é um título</h3>
-          <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
-          <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
+            <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
+          </div>
         </article>
       </div>
     </section>
