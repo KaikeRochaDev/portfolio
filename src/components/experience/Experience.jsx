@@ -10,7 +10,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Desenvolvedor Frontend</h3>
+          <h3>Desenvolvedora Frontend</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
@@ -63,7 +63,7 @@ const Experience = () => {
           </div>
         </div>
         <div className="experience__backend">
-          <h3>Desenvolvedor Backend</h3>
+          <h3>Desenvolvedora Backend</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>

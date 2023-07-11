@@ -38,7 +38,7 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Desenvolvedor Web</h3>
+            <h3>Desenvolvedora Web</h3>
           </div>
 
           <ul className='service__list'>
@@ -66,10 +66,15 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Criador de conteúdo</h3>
+            <h3>Criadora de Conteúdo</h3>
           </div>
 
           <ul className='service__list'>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </li>
+
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
