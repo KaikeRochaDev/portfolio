@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>Isso é um título</h3>
+          <h3>Painel de criptomoedas e visualização financeira</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
             <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
@@ -29,7 +29,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG2} alt="" />
           </div>
-          <h3>Isso é um título</h3>
+          <h3>Modelos de gráficos e infográficos no figma</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
             <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
@@ -40,7 +40,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG3} alt="" />
           </div>
-          <h3>Isso é um título</h3>
+          <h3>Kit de interface do usuário do painel Figma para aplicativos da web de design de dados</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
             <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
@@ -51,7 +51,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="" />
           </div>
-          <h3>Isso é um título</h3>
+          <h3>Manutenção de tarefas e acompanhamento do progresso</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
             <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
@@ -62,7 +62,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG5} alt="" />
           </div>
-          <h3>Isso é um título</h3>
+          <h3>Modelos de gráficos e infográficos no figma</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
             <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
@@ -73,7 +73,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG6} alt="" />
           </div>
-          <h3>Isso é um título</h3>
+          <h3>Modelos de gráficos e infográficos no figma</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/kaikerochadev" target='_blank' className='btn'>GitHub</a>
             <a href="https://github.com/kaikerochadev" target="_blank" className='btn btn-primary'>Ver site</a>
