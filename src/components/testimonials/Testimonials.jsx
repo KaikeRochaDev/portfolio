@@ -41,8 +41,8 @@ const data = [
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review From Clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Feedbacks dos clientes</h5>
+      <h2>Depoimentos</h2>
       <Swiper
         className="container testimonials__container"
         modules={[Navigation]}
