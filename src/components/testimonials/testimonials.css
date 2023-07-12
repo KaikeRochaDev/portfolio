@@ -27,6 +27,10 @@
     margin: 0.8rem auto 0;
 }
 
+.swiper-button-prev .swiper-button-next{
+    background: var(--color-primary);
+}
+
 
 @media screen and (max-width: 1024px) {
     .container.testimonials__container{
