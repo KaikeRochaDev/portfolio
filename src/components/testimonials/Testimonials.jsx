@@ -5,6 +5,12 @@ import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+
 const data = [
   {
     avatar: AVTR1,
@@ -34,27 +40,28 @@ const data = [
 
 const Testimonials = () => {
   return (
-    <section id='testimonials'>
-      <h5>Feedbacks dos clientes</h5>
-      <h2>Depoimentos</h2>
-
-      <div className="container testimonials__container">
-        {
-          data.map(({ avatar, name, review }, index) => {
-            return (
-              <article key={index} className='testimonial'>
-                <div className="client__avatar">
-                  <img src={avatar}/>
-                </div>
-                <h5 className='client__name'>{name}</h5>
-                <small className='client__review'>
-                  {review}
-                </small>
-              </article>
-            )
-          })
-        }
-      </div>
+    <section id="testimonials">
+      <h5>Review From Clients</h5>
+      <h2>Testimonials</h2>
+      <Swiper
+        className="container testimonials__container"
+        modules={[Navigation]}
+        spaceBetween={40}
+        slidesPerView={1}
+        navigation={{ clickable: true }}
+      >
+        {data.map(({ avatar, name, review }, index) => {
+          return (
+            <SwiperSlide key={index} className="testimonial">
+              <div className="client__avatar">
+                <img src={avatar} alt={name} />
+              </div>
+              <h5 className="client__name">{name}</h5>
+              <small className="client__review">{review}</small>
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
     </section>
   )
 }
