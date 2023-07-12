@@ -4,8 +4,20 @@ import './contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
 import {FaInstagram} from 'react-icons/fa'
 import { RiWhatsappLine } from 'react-icons/ri'
+import { useRef } from 'react'
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
+  const form = useRef()
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_qb1naro', 'template_difbjew', form.current, 'wfXksa95nYtuUcbwl')
+
+    e.target.reset()
+  };
+
   return (
     <section id="contact">
       <h5>Entre em contato</h5>
@@ -37,7 +49,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
